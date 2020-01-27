@@ -62,7 +62,8 @@ public abstract class AbstractThrowEventBuilder<
    * message event definition.
    *
    * @param id the id of the message event definition
-   * @return the message event definition builder object
+   * @return the message event d <bpmn:error id="Error_0fw5u6i" name="Error_11j8cgi" erroefinition
+   *     builder object
    */
   public MessageEventDefinitionBuilder messageEventDefinition(final String id) {
     final MessageEventDefinition messageEventDefinition = createEmptyMessageEventDefinition();
